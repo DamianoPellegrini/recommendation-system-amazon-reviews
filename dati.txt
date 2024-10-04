@@ -1,0 +1,31 @@
+
+
+Collaborative
+
+Nº Utenti 9911
+Nº Prodotti 5381
+Nº Rating 184765
+
+Predizioni impossibili: 5808
+Percentuale predizioni impossibili su predizioni calcolate:15.43%
+
+Raccomandazioni tramite K-NN: [('B000IX99RO', 5.0), ('B004D5SUIC', 5.0), ('B0009OR8V6', 5.0), ('B07BFGGSG2', 5.0), ('B0B8PDNXG4', 5.0), ('B0046DSTJG', 5.0), ('B07BCHDTQ7', 5.0), ('B0009TCRB2', 5.0), ('B000VUASMY', 5.0), ('B000C9LOHW', 5.0)]
+Raccomandazioni tramite Matrix Factorization: [('9539751047', 5.0), ('B07BGHR4PN', 5.0), ('B07CJL99N2', 5.0), ('B07CBMDT6K', 5.0), ('B07C7KHB9W', 5.0), ('B07C6Y83CK', 5.0), ('B07C5S18M3', 5.0), ('B07C4W858Y', 5.0), ('B07C2VZGJY', 5.0), ('B07C2VH2MV', 5.0)]
+
+Algorithm       MSE      RMSE
+     K-NN  1.076573  1.037580
+      SVD  0.787765  0.887561
+
+Content-Based
+
+   Embedding         MSE        RMSE
+         BoW  0.07828542  0.27979532
+Transformers  0.07966070  0.28224227
+
+
+
+Sentiment analysis
+
+   Embedding         MSE        RMSE
+         BoW  0.24559395  0.49557436
+Transformers  0.26195282  0.51181327
